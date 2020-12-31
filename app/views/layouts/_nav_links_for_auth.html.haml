@@ -2,7 +2,7 @@
   %li.nav-item
     %a.nav-link{href: edit_user_registration_path} Edit account 
   %li.nav-item
-    %a.nav-link{href: destroy_user_session_path, :method=>'delete'} Sign out
+    =link_to 'Sign out', destroy_user_session_path, method: :delete, class: "nav-link"
 - else
   %li.nav-item
     %a.nav-link{href:new_user_session_path} Sign in
