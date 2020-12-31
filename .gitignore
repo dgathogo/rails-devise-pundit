@@ -85,3 +85,4 @@ pickle-email-*.html
 
 node_modules
 tmp
+.byebug_history
